@@ -1,0 +1,65 @@
+/* About me section */
+.aboutme_text {
+  line-height: 23px !important;
+  color: darkslategray;
+  white-space: pre-line;
+}
+
+/* Timeline section */
+.resume_timeline .resume_content .timeline_title {
+  margin: -5px;
+  font-weight: 700;
+}
+
+.resume_timeline .resume_content .timeline_date {
+  color: darkslategray;
+}
+
+.resume_timeline .resume_content .timeline_description {
+  color: gray;
+  font-size: small;
+  margin-top: 6px;
+  text-align: justify;
+}
+
+/* Services */
+.service {
+  text-align: center;
+}
+
+.service .service_title {
+  line-height: 35px;
+  font-size: 18px;
+}
+
+.service .service_description {
+  color: #989898;
+  margin-right: 5px;
+}
+.service .service_icon > .MuiSvgIcon-root {
+  font-size: 45px;
+  color: darkslategray;
+}
+
+/* Skills */
+.skill {
+  height: 100%;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0px 0px 48px 0px rgba(4, 6, 4, 0.08);
+}
+
+.skill .skill_title {
+}
+
+.skill .skill_description {
+  display: flex;
+  align-items: center;
+  color: #989898;
+}
+
+.skill .skill_description .timeline_dot {
+  border-color: var(--main-color) !important;
+  padding: 2px;
+  margin-right: 5px;
+}

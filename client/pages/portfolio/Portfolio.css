@@ -1,0 +1,62 @@
+.customTabs {
+}
+
+.customTabs .active {
+  color: var(--main-color);
+}
+
+.customTabs .customTabs_item {
+}
+
+.customCard {
+  width: 100%;
+  max-width: 350px;
+  text-overflow: ellipsis;
+  /* height: 100% !important;
+  max-width: 350px !important;
+  box-shadow: 0px 0px 48px 0px rgba(4, 6, 4, 0.08) !important;
+  border-radius: 5px !important;
+  overflow: hidden !important;
+  outline-width: 0px !important;
+  background-color: pink !important; */
+}
+
+.customCard .customCard_image {
+  height: 150px;
+}
+
+.customCard .customCard_title {
+  font-weight: 700;
+}
+
+.customCard_caption {
+  color: darkslategray;
+}
+
+.projectDialog {
+}
+
+.projectDialog_image {
+  max-height: 300px;
+  width: 100%;
+  object-fit: cover;
+  object-position: center center;
+}
+
+.projectDialog_description {
+  margin-top: 10px;
+}
+
+.projectDialog-actions {
+  justify-content: center;
+  margin-bottom: 10px;
+}
+
+.projectDialog-icon {
+  color: darkslategray;
+  margin: 0px 12px;
+}
+
+.projectDialog-icon:hover {
+  color: var(--main-color);
+}
