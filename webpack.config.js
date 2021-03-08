@@ -1,5 +1,5 @@
 module.exports = {
-  mode: 'production',
+  mode: 'development',
   entry: ['@babel/polyfill', __dirname + '/client/index.js'],
   output: {
     filename: 'bundle.js',
